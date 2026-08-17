@@ -335,7 +335,7 @@ export default function Home() {
               <Clock3 size={16} /> Hecho con tiempo y cariño
             </span>
             <span>
-              <MapPin size={16} /> Petare, Caracas, Venezuela
+              <MapPin size={16} /> Caracas, Venezuela
             </span>
           </div>
         </div>
@@ -624,8 +624,6 @@ export default function Home() {
         <div>
           <p className="footer-label">Visítanos</p>
           <p>
-            Petare,
-            <br />
             Caracas, Venezuela
           </p>
         </div>
