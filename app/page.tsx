@@ -528,13 +528,21 @@ export default function Home() {
                     key={option.id}
                     option={option}
                     selected={deliveryMethod === option.id}
-                    onClick={() => setDeliveryMethod(option.id)}
+                    onClick={() => { setDeliveryMethod(option.id);
+                         const summaryElement = document.getElementById('summary');
+
+                            if (summaryElement) {
+                              summaryElement.scrollIntoView({ behavior: 'smooth' });
+                            }
+                      
+                    }}
+                    
                   />
                 ))}
               </div>
             </section>
           </div>
-          <aside className="summary">
+          <aside className="summary" id="summary">
             <p className="eyebrow">Tu resumen</p>
             <h3>
               Una torta hecha
