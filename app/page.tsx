@@ -43,6 +43,7 @@ const sponges: Option[] = [
   { id: "vainilla", label: "Vainilla" },
   { id: "chocolate", label: "Chocolate" },
   { id: "zanahoria", label: "Zanahoria con canela" },
+  { id: "marmoleada", label: "Marmoleada" },
 ];
 const fillings: Option[] = [
   { id: "ganache", label: "Ganache de chocolate" },
