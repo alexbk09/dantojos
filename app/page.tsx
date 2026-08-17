@@ -307,7 +307,6 @@ export default function Home() {
         </a>
         <nav>
           <a href="#configura">Configura tu torta</a>
-          <a href="#proceso">Cómo funciona</a>
           <a href="https://instagram.com/dantojo2209" target="_blank">Nuestros Diseños</a>
           <a href="#contacto">Contacto</a>
         </nav>
