@@ -306,7 +306,7 @@ export default function Home() {
           D&apos;antojos<span>.</span>
         </a>
         <nav>
-          <a href="#configura">Configura tu torta</a>
+          <a href="#configura">Cotiza tu torta</a>
           <a href="https://instagram.com/dantojo2209" target="_blank">Nuestros Diseños</a>
           <a href="#contacto">Contacto</a>
         </nav>
@@ -329,7 +329,7 @@ export default function Home() {
             tamaño y detalles; nosotros horneamos la magia.
           </p>
           <a className="primary-cta" href="#configura">
-            Comenzar a diseñar <ArrowRight size={18} />
+            Comenzar a cotizar<ArrowRight size={18} />
           </a>
           <div className="trust-row">
             <span>
